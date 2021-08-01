@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { ConvertToObservableComponent } from './components/convert-to-observable/convert-to-observable.component';
 import { CancelObservableComponent } from './components/cancel-observable/cancel-observable.component';
+import { MemoryLeakageComponent } from './memory-leakage/memory-leakage.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CancelObservableComponent } from './components/cancel-observable/cancel
     NewObservableComponent,
     FunctionObservableComponent,
     ConvertToObservableComponent,
-    CancelObservableComponent
+    CancelObservableComponent,
+    MemoryLeakageComponent
   ],
   imports: [
     BrowserModule,
